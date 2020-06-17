@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/QUEVEN/IdeaProjects/APItest">
+        <parameter name="URL" value="https://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel=13981871131"></parameter>
+        <classes>
+            <class name="mainClas"></class>
+        </classes>
+    </test>
+</suite>
